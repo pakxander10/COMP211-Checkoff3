@@ -30,15 +30,15 @@ if __name__ == "__main__":
     print(f"Initializing vectors of length {N:,}...\n")
 
     #Basically this creates a list of size 10000000
-    py_vec1 = [1.5] * N
-    py_vec2 = [2.0] * N
+    vec1 = [1.5] * N
+    vec2 = [2.0] * N
     
-    np_vec1 = np.array(py_vec1, dtype=np.float64)
-    np_vec2 = np.array(py_vec2, dtype=np.float64)
+    np_vec1 = np.array(vec1, dtype=np.float64)
+    np_vec2 = np.array(vec2, dtype=np.float64)
 
     #Starts time tracker for Python code run
     start = time.time()
-    res_py = python_dot_product(py_vec1, py_vec2)
+    res_py = python_dot_product(vec1, vec2)
     time_py = time.time() - start
     print(f"Pure Python: {time_py:.5f} seconds \t(Result: {res_py})")
 

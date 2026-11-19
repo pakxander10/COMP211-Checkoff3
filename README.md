@@ -43,4 +43,5 @@ All three should print the same result (30000000.0), with Python the slowest and
 ## Resources
 - [NumPy documentation](https://numpy.org/doc/stable/)
 - [Python ctypes documentation](https://docs.python.org/3/library/ctypes.html)
-- I also explored the topic with AI (Claude) by asking it to explain things like I am 14 years old and to pick apart my thought process when I got something wrong.
+- I also explored the topic with AI (Claude). the conversation is attached to this doc: https://docs.google.com/document/d/187bV4Yo1JxvVKNAyTEvk_qiK2x6qhZfX6OgCfQohOJM/edit?usp=sharing
+
